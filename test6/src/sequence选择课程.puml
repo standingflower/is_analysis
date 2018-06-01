@@ -1,0 +1,9 @@
+@startuml
+title 基于GitHub的实验管理平台--选择课程用例的顺序图
+actor users
+users -> course :根据用户id获取
+
+course -> users :返回用户对应的所有课程
+
+
+@enduml

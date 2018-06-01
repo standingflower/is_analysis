@@ -1,0 +1,7 @@
+@startuml
+title 基于GitHub的实验管理平台--学生列表用例的顺序图
+actor users
+users -> course:选择课程
+course -> students: 查看所有学生列表
+students --> users:每个学生的信息
+@enduml
